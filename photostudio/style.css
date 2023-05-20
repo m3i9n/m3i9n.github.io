@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.promo {
+    height: 650px;
+    background: url("assets/header.jpg") center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+    display: flex;
+    align-items: center;
+
+}
+
+.promo:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .65);
+}
+
+.logo .logo_text {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+h2.title {
+    margin-top: 30px;
+}
+
+.title {
+    color: #ffd6d6;
+    font-family: 'Roboto', sans-serif;
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.simple .title_big {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 21px;
+}
+
+.promo .promo_text {
+    padding: 0 13px;
+    margin-top: 23px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+}
+
+.promo .promo_text span {
+    color: #f9bf3b;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+
+
+.more {
+    margin-top: 73px;
+}
+
+.more .more_text {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+.service {
+    height: 604px;
+    width: 100%;
+    background-color: #ffd6d6;
+    padding: 85px 0 75px 0;
+}
+
+.service .service_header {
+    color: #252525;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.service .service_item .service_card  {
+    display: flex;
+    margin: 0 auto;
+    width: 235px;
+    height: 335px;
+    border: solid;
+    border-color: #252525;
+    background-color: #c7c6c6;
+    border-radius: 100px 100px 15px 15px;
+}
+
+.service .service_item {
+    margin-top: 25px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+
+h1.service_title {
+    padding-left: 76.5px;
+    margin-top: 10px;
+    max-width: 0px;
+    max-height: 0px;
+    font-weight: 400;
+}
+
+ul {
+    text-align: start;
+}
+
+li::marker {
+    color: #252525;
+}
+
+.card {
+    width: 285px;
+    height: 375px;
+    border-radius: 100px 100px 15px 15px;
+    margin-left: 120px;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-left: 27%;
+    text-align: center;
+}
+
+ul {
+    margin-left: 10px;
+}
+
+.workers_background {
+    height: 250px;
+    width: 100% !important;
+    background-color: #fff1f1;
+}
+
+.workers_header {
+    text-align: center;
+}
+
+.celebrity {
+    height: 600px;
+    width: 100% !important;
+    background-color: #ffd6d6;
+}
+
+.circle {
+    margin-top: 8%;
+    margin-left: 5%;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    background-image: url("assets/reklam.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.circle2 {
+    margin-top: 8%;
+    margin-left: 5%;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    background-image: url("assets/studio.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.circle3 {
+    margin-top: 8%;
+    margin-left: 5%;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    background-image: url("assets/predmet.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.celebrity_header {
+    text-align: center;
+}
+
+.celebrity_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gift {
+    height: 600px;
+    background: url("assets/end.jpeg") left;
+    background-size: 100%;
+
+}
+.gift_text {
+    margin-top: 10%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    width: 1050px;
+    
+}
+.gift_teg {
+    font-family: 'Roboto', sans-serif;
+    color: azure;
+    margin-top: 15%;
+    margin-left: 42%;
+    font-style: italic;
+    font-size: 900px;
+    
+}
+footer{
+    height: 169px;
+    background: #1a1a1a;
+}
+footer .footer_wrap{
+    display: flex;
+    justify-content: center;
+}
+footer .footer_link, footer .footer_text, footer .footer_link_divider{
+   margin-top: 70px;
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 15px;
+   text-align: center;
+   color: #888888; 
+}
+footer .footer_text{
+    margin-top: 0;
+}
+footer .footer_link_divider{
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 800;
+}
